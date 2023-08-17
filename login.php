@@ -3,11 +3,11 @@
  $pwd = $_POST["pwd"];
  if($usr == “sajid” && $pwd == “sajid123”)
  {
- $loginName = "Welcome Admin";
+ $loginName = "login failed";
  }
  else
  {
- $loginName = "Login Failed";
+ $loginName = "Welcome Admin";
  }
 ?>
 <!DOCTYPE html>
